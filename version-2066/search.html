@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索-精选电影</title>
+  <meta name="description" content="搜索精选电影影片合集，可按影片名、地区、年份、类型、剧情关键词查找高清影片在线观看。">
+  <meta name="keywords" content="精选电影,影片合集,热门电影,高清影片,在线观看,电影片单,搜索影片,在线搜索">
+  <link rel="stylesheet" href="assets/site.css">
+  
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="精选电影">
+      <span class="brand-icon">▶</span>
+      <span class="brand-text">精选电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="index.html">首页</a>
+<a class="nav-link " href="categories.html">分类</a>
+<a class="nav-link " href="rankings.html">排行榜</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <form class="mobile-search" action="search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="mobile-nav" aria-label="移动导航">
+      <a class="mobile-link " href="index.html">首页</a>
+<a class="mobile-link " href="categories.html">分类</a>
+<a class="mobile-link " href="rankings.html">排行榜</a>
+    </nav>
+  </div>
+  <div class="quick-nav" aria-label="分类快捷入口">
+    <div class="container quick-inner">
+      <a href="category-suspense-crime.html">悬疑犯罪</a>
+<a href="category-action-adventure.html">动作冒险</a>
+<a href="category-romance-family.html">爱情家庭</a>
+<a href="category-comedy-life.html">喜剧人生</a>
+<a href="category-sci-fi-fantasy.html">科幻奇想</a>
+<a href="category-history-period.html">历史年代</a>
+    </div>
+  </div>
+</header>
+  <main class="page-shell">
+  <section class="container page-hero small-hero">
+    <span class="eyebrow">搜索</span>
+    <h1>搜索精选电影</h1>
+    <p>输入影片名、年份、地区、类型或剧情关键词，快速找到感兴趣的内容。</p>
+    <form class="search-page-form" action="search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="输入关键词..." data-search-page-input autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </section>
+  <section class="container search-results">
+    <div class="section-head compact">
+      <div>
+        <h2 data-search-title>搜索结果</h2>
+        <p data-search-summary>可按关键词浏览匹配影片。</p>
+      </div>
+    </div>
+    <div class="movie-grid category-movie-grid" data-search-grid></div>
+  </section>
+</main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-brand" href="index.html">
+        <span class="brand-icon">▶</span>
+        <span>精选电影</span>
+      </a>
+      <p>精选电影页面汇总多类型优质影片内容，兼顾热门、经典与近期更新，适合日常浏览选择。</p>
+    </div>
+    <div>
+      <h2>热门入口</h2>
+      <a href="index.html#today-picks">今日精选</a>
+      <a href="index.html#hot-list">热门推荐</a>
+      <a href="rankings.html">影片排行榜</a>
+    </div>
+    <div>
+      <h2>分类浏览</h2>
+      <a href="category-suspense-crime.html">悬疑犯罪</a>
+<a href="category-action-adventure.html">动作冒险</a>
+<a href="category-romance-family.html">爱情家庭</a>
+<a href="category-comedy-life.html">喜剧人生</a>
+<a href="category-sci-fi-fantasy.html">科幻奇想</a>
+<a href="category-history-period.html">历史年代</a>
+<a href="category-art-music.html">文艺音乐</a>
+<a href="category-drama-classics.html">剧情经典</a>
+<a href="category-world-cinema.html">环球影像</a>
+<a href="category-new-series.html">新片剧集</a>
+    </div>
+  </div>
+</footer>
+  <script src="assets/app.js"></script>
+  <script src="assets/search-index.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
